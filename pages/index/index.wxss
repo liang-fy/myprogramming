@@ -1,0 +1,80 @@
+/**index.wxss**/
+.login_area_far{
+  text-align: center;
+}
+.login_area{
+  width: 97%;
+  height: 130rpx;
+  margin: 8rpx;
+  border: 1rpx solid gainsboro;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.touxiang_far{
+  width: 100rpx;
+  height: 100rpx;
+  border:6rpx solid #fff;
+  border-radius:80rpx;
+  overflow: hidden;
+  float: left;
+  margin-left: 12rpx;
+  margin-top: 12rpx;
+}
+.name_far{
+  width: 188rpx;
+  height: 38rpx;
+  float: left;
+  margin-top: 45rpx;
+  margin-left: 5rpx;
+}
+.login_text{
+  width: 152rpx;
+  height: 38rpx;
+  margin-top: 45rpx;
+  float: right;
+}
+.my{
+  margin-left: 1%;
+  margin-top: 22rpx;
+  margin-bottom: 22rpx;
+  font-size: 31rpx;
+}
+.my_image{
+  width: 20%;
+  height: 110rpx;
+  margin-top: 20rpx;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 10rpx;
+  float: left;
+}
+.my_image1{
+  width: 20%;
+  height: 110rpx;
+  margin-top: 20rpx;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 10rpx;
+  clear: left;
+}
+.main_icon{
+  text-align: center;
+}
+.image1{
+  margin-top: 16rpx;
+  width:97%;
+  height: 250rpx;
+}
+.main_text{
+  height: 66rpx;
+}
+.my_text{
+  float: left;
+  font-size: 22rpx;
+  width: 25%;
+  text-align: center;
+  margin-top: 10rpx;
+}
+.clear{
+  clear: right;
+}

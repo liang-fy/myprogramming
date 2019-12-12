@@ -1,0 +1,73 @@
+<!--index.wxml-->
+<view class="login_area_far">
+  <navigator url="/pages/my/my" open-type="switchTab" hover-class="other-navigator-hover">
+    <view class="login_area">
+      <view class='touxiang_far'>
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <view class='name_far'>
+        <open-data type="userNickName"></open-data>
+      </view>
+      <view class="login_text">
+        欢迎您！
+        <!-- <view class="{{dlShow?'showView':'hiddenView'}}">
+          请登录
+        </view>
+        <view class="{{ydlShow?'showView':'hiddenView'}}">
+          个人中心
+        </view> -->
+      </view>
+    </view>
+    <view class="clear"></view>
+  </navigator>
+</view>
+<swiper indicator-dots="true" autoplay="true" class="main_icon">
+  <swiper-item>
+    <image url="" class="image1" src="../../images/bq.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image url="" class="image1" src="../../images/bq.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image url="" class="image1" src="../../images/bq.jpg"></image>
+  </swiper-item>
+</swiper>
+<view class="my">
+  我的
+</view>
+<view class="main_icon">
+  <navigator url="../../pages/computer/computer" hover-class="navigator-hover">
+    <image class="my_image" src="../../images/bq.jpg"></image>
+  </navigator>
+  <navigator url="" hover-class="navigator-hover">
+    <image class="my_image" src="../../images/bq.jpg"></image>
+  </navigator>
+  <navigator url="" hover-class="navigator-hover">
+    <image class="my_image" src="../../images/bq.jpg"></image>
+  </navigator>
+  <navigator url="" hover-class="navigator-hover">
+    <image class="my_image1" src="../../images/bq.jpg"></image>
+  </navigator>
+</view>
+<view class="main_text">
+  <view class="my_text">计算器</view>
+  <view class="my_text">签到</view>
+  <view class="my_text">签到</view>
+  <view class="my_text">签到</view>
+</view>
+<!-- <view style="white-space:warp line-align:30rpx"></view> -->
+<view class="my">
+  我的
+</view>
+<view class="main_icon">
+  <image class="my_image" src="../../images/bq.jpg"></image>
+  <image class="my_image" src="../../images/bq.jpg"></image>
+  <image class="my_image" src="../../images/bq.jpg"></image>
+  <image class="my_image" src="../../images/bq.jpg"></image>
+</view>
+<view class="main_text">
+  <view class="my_text">签到</view>
+  <view class="my_text">签到</view>
+  <view class="my_text">签到</view>
+  <view class="my_text">签到</view>
+</view>

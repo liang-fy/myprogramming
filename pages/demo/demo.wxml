@@ -1,0 +1,59 @@
+<!--pages/demo/demo.wxml-->
+
+<text>pages/demo/demo.wxml</text>
+<view wx:for="{{i}}" wx:for-item="i1">
+  <view wx:for="{{i}}" wx:for-item="i2" class="ifloat">
+    {{i1}}*{{i2}}={{i1*i2}}
+  </view>
+</view>
+<view>
+  <button open-type="share">点击分享</button>
+</view>
+<view>icon类型：
+  <block wx:for="{{iconType}}">
+    <icon type="{{item}}" />{{item}}
+  </block>
+</view>
+<view>icon大小：
+  <block wx:for="{{iconSize}}">
+    <icon type="success" size="{{item}}" />{{item}}
+  </block>
+</view>
+<view>icon顏色：
+  <block wx:for="{{iconColor}}">
+    <icon type="success" size="30" color="{{item}}" />{{item}}
+  </block>
+</view>
+<view>//text.wxml</view>
+<block wx:for="{{x}}" wx:for-item="x">
+  <view class="aa">
+    <block wx:for="{{25-x}}" wx:for-item="x">
+      <text decode="{{true}}" space="{{true}}">&nbsp;</text>
+    </block>
+    <block wx:for="{{y}}" wx:for-item="y">
+      <block wx:if="{{y<=2*x-1}}">
+        <text>*</text>
+      </block>
+    </block>
+  </view>
+</block>
+<view>显示百分比</view>
+<progress percent='80' show-info='80'></progress>
+<view>改变宽度</view>
+<progress percent='80' stroke-width='2'></progress>
+<view>自动显示进度条</view>
+<progress percent='80' active></progress>
+<view>//radio.wxml</view>
+<view>选择你最喜欢的城市</view>
+<radio-group bindchange="citychange">
+  <radio value="北京">北京</radio>
+  <radio value="上海">上海</radio>
+  <radio value="广州">广州</radio>
+  <radio value="深圳">深圳</radio>
+</radio-group>
+<view>你最喜欢的语言是{{city}}</view>
+<radio-group>
+  <label>
+    <radio value="java">java</radio>
+  </label>
+</radio-group>

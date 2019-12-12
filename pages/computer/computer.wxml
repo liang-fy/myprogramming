@@ -1,0 +1,40 @@
+<!--Pages/computer/computer.wxml-->
+<view class="content">
+  <view class="layout-top">
+    <block  wx:for="{{logs}}" wx:for-item="log">
+      <view class="screen">{{log}}</view>
+    </block>
+    <view class="screen">{{screenData}}</view>
+  </view>
+  <view class="layout-bottom">
+    <view class="btnGroup">
+      <view bindtap="btn" id="{{idc}}" class="item orange">C</view>
+      <view bindtap="btn" id="{{idb}}" class="item orange">←</view>
+      <view bindtap="btn" id="{{idt}}" class="item orange">#</view>
+      <view bindtap="btn" id="{{idadd}}" class="item orange">+</view>
+    </view>
+    <view class="btnGroup">
+      <view bindtap="btn" id="{{id9}}" class="item blue">9</view>
+      <view bindtap="btn" id="{{id8}}" class="item blue">8</view>
+      <view bindtap="btn" id="{{id7}}" class="item blue">7</view>
+      <view bindtap="btn" id="{{idj}}" class="item orange">-</view>
+    </view>
+    <view class="btnGroup">
+      <view bindtap="btn" id="{{id6}}" class="item blue">6</view>
+      <view bindtap="btn" id="{{id5}}" class="item blue">5</view>
+      <view bindtap="btn" id="{{id4}}" class="item blue">4</view>
+      <view bindtap="btn" id="{{idx}}" class="item orange">x</view>
+    </view>
+    <view class="btnGroup">
+      <view bindtap="btn" id="{{id3}}" class="item blue">3</view>
+      <view bindtap="btn" id="{{id2}}" class="item blue">2</view>
+      <view bindtap="btn" id="{{id1}}" class="item blue">1</view>
+      <view bindtap="btn" id="{{iddiv}}" class="item orange">/</view>
+    </view>
+    <view class="btnGroup">
+      <view bindtap="btn" id="{{id0}}" class="item zero blue">0</view>
+      <view bindtap="btn" id="{{idd}}" class="item blue">.</view>
+      <view bindtap="btn" id="{{ide}}" class="item orange">=</view>
+    </view>
+  </view>
+</view>

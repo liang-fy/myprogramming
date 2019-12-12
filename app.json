@@ -1,0 +1,48 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/demo/demo",
+    "pages/logs/logs",
+    "pages/my/my",
+   "pages/computer/computer"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#AFEEEE",
+    "navigationBarTitleText": "我自己",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "debug": true,
+  "tabBar": {
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/sy.png",
+        "selectedIconPath": "images/sy_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "iconPath": "images/bq.png",
+        "selectedIconPath": "images/bq_selected.png",
+        "text": "便签"
+      },
+      {
+        "pagePath":"pages/my/my",
+        "iconPath":"images/wd.png",
+        "selectedIconPath":"images/wd_selected.png",
+        "text":"我的"
+      }
+    ]
+  },
+  "networkTimeOut": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
+}
